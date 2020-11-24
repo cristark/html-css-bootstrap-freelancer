@@ -48,7 +48,7 @@
     <section id="jumbotron">
         <div class="container">
             <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 text-uppercase">
+                <div class="col-xs-12 text-uppercase">
                     <img src="img/profile.png" alt="profilo jumbotron">
                     <h1>Start Bootstrap</h1>
                     <div class="white_star">
@@ -127,14 +127,36 @@
         <!-- Sezione CONTACT ME -->
         <section id="contact">
             <div class="container">
-                <div class="row">
-                    <h2>Contact Me</h2>
+                <div class="row text-center">
+                    <div class="col-xs-12">
+                        <h2>Contact Me</h2>
+                        <div class="blk_star">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- Form di contatto -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <form action="">
-
+                        <form class="contact_form">
+                            <div class="form-group">
+                                <label for="inputName1">Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="inputEmail1">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPhoneNumber1">Phone Number</label>
+                                <input type="text" class="form-control" id="inputPhoneNumber1">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputMessage1">Message</label>
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default btn-lg">Send</button>
                         </form>
                     </div>
                 </div>
@@ -143,14 +165,28 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="text-center">
         <!-- FOOTER NAV -->
         <section id="footer_nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h3>Location</h3>
+                        <p>2215 Jhon Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <span class="success">Start Bootstrap</span>.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -159,7 +195,9 @@
         <section id="copy">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12"></div>
+                    <div class="col-xs-12">
+                        <p>Copyright &copy; 2020 <a href="https://github.com/cristark" target="_blank">cris_tark <img src="https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295430_1280.png" alt="penguin-avatar"></a></p>
+                    </div>
                 </div>
             </div>
         </section>

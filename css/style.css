@@ -56,7 +56,7 @@ li {
   content: "";
   display: inline-block;
   height: 4px;
-  width: 200px;
+  width: 20%;
   border-radius: 2px;
   background-color: #fff;
 }
@@ -66,7 +66,7 @@ li {
   content: "";
   display: inline-block;
   height: 4px;
-  width: 200px;
+  width: 20%;
   border-radius: 2px;
   background-color: black;
 }
@@ -99,6 +99,15 @@ li {
   color: #1abc9c;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar.main_nav .navbar-header button:hover {
+  background-color: #1abc9c;
+  border-color: transparent;
+}
+
 /* - - JUMBOTRON - - */
 #jumbotron {
   background-color: #1abc9c;
@@ -117,6 +126,17 @@ li {
 
 #jumbotron .row p {
   font-size: 2em;
+}
+
+/* Media Jumbotron */
+@media screen and (max-width: 768px) {
+  #jumbotron .row h1 {
+    font-size: 3em;
+  }
+
+  #jumbotron .row p {
+    font-size: 1em;
+  }
 }
 
 /* - - MAIN - - */
@@ -151,13 +171,95 @@ li {
   margin-top: 20px;
 }
 
+#about .main_btn a:hover {
+  background-color: #2c3e50;
+  border-color: transparent;
+}
+
 /* Sezione CONTACT */
+#contact {
+  margin: 50px 0;
+}
+
+#contact .container {
+  padding: 0 100px;
+}
+
+#contact .contact_form input,
+#contact .contact_form textarea {
+  border: 0;
+  border-bottom: 1.5px solid lightgray;
+  border-radius: 0;
+  box-shadow: 0;
+  margin: 0;
+}
+
+#contact .contact_form label {
+  font-weight: normal;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+}
+
+#contact .contact_form button {
+  background-color: #1abc9c;
+  color: white;
+}
+
+#contact .contact_form button:hover {
+  background-color: #2c3e50;
+}
 
 /* - - FOOTER - - */
+footer {
+  color: white;
+}
+
 #footer_nav {
   background-color: #3a546d;
+  padding: 30px 0;
+}
+
+#footer_nav p {
+  font-size: 1.4em;
+  padding: 0 5px;
+}
+
+#footer_nav ul {
+  padding-left: 0;
+}
+
+#footer_nav h3 {
+  font-weight: 700;
+}
+
+#footer_nav li a i {
+  font-size: 1.4em;
+  margin: 0 5px;
+  padding: 17px 20px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+#footer_nav li a i:hover {
+  border-color: transparent;
+  background-color: #1abc9c;
+  color: white;
+}
+
+#footer_nav span {
+  color: #1abc9c;
 }
 
 #copy {
   background-color: #2c3e50;
+  padding: 30px 0;
+}
+
+#copy img {
+  height: 20px;
+}
+
+#copy a:hover {
+  color: #1abc9c;
 }
