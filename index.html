@@ -18,21 +18,27 @@
     <header>
 
         <!-- Barra di navigazione -->
-        <nav id="main_nav" class="text-uppercase">
+        <nav class="navbar navbar-default main_nav">
             <div class="container">
-                <div class="row">
+                
+                <!-- Logo + Hamburger NAV mobile -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Start Bootstrap</a>
+                </div>
 
-                    <!-- Sezione LOGO -->
-                    <div class="col-sm-4">
-                        <a href="#">Start Bootstrap</a>
-                    </div>
-                    <div class="col-sm-8 text-right">
-                        <ul>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
+                <!-- Menù di navigazione -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
