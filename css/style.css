@@ -132,6 +132,23 @@ li {
 /* Sezioone ABOUT */
 #about {
   background-color: #1abc9c;
+  padding: 50px 0;
+  color: white;
+}
+
+#about .container {
+  padding: 0 100px;
+}
+
+#about p {
+  font-size: 1.5em;
+}
+
+#about .main_btn a {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  margin-top: 20px;
 }
 
 /* Sezione CONTACT */
