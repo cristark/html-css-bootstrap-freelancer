@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Document</title>
+    <title>Bootstrap Freelance | Home</title>
     <!-- Link FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <!-- Link Google Font -->
@@ -18,22 +18,41 @@
     <header>
 
         <!-- Barra di navigazione -->
-        <div id="main_nav">
+        <nav id="main_nav" class="text-uppercase">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-4"></div>
-                    <div class="col-xs-8"></div>
+
+                    <!-- Sezione LOGO -->
+                    <div class="col-sm-4">
+                        <a href="#">Start Bootstrap</a>
+                    </div>
+                    <div class="col-sm-8 text-right">
+                        <ul>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Jumbotron -->
+    <section id="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 text-uppercase">
+                    <img src="img/profile.png" alt="profilo jumbotron">
+                    <h1>Start Bootstrap</h1>
+                    <div class="white_star">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Graphic artist - Web designer - Illustrator</p>
                 </div>
             </div>
         </div>
-
-        <!-- Jumbotron -->
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-8 col-xs-offset-2"></div>
-            </div>
-        </div>
-    </header>
+    </section>
 
     <!-- MAIN -->
     <main>
@@ -41,17 +60,20 @@
         <!-- Sezione PORTFOLIO -->
         <section id="portfolio">
             <div class="container">
-                <div class="row">
+                <div class="row text-center">
                     <h2>Portfolio</h2>
+                    <div class="blk_star">
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6 col-lg-4"></div>
-                    <div class="col-md-6 col-lg-4"></div>
-                    <div class="col-md-6 col-lg-4"></div>
-                    <div class="col-md-6 col-lg-4"></div>
-                    <div class="col-md-6 col-lg-4"></div>
-                    <div class="col-md-6 col-lg-4"></div>
+                    <div class="col-sm-6 col-lg-4"></div>
+                    <div class="col-sm-6 col-lg-4"></div>
+                    <div class="col-sm-6 col-lg-4"></div>
+                    <div class="col-sm-6 col-lg-4"></div>
+                    <div class="col-sm-6 col-lg-4"></div>
+                    <div class="col-sm-6 col-lg-4"></div>
                 </div>
             </div>
         </section>
